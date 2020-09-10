@@ -1,0 +1,82 @@
+body {
+    background-image: url('img/pexels-belle-co-1000482.jpg');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+.menu-container{
+    color:#fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    margin-left: 22px;
+}
+
+.capa {
+    width: 99%;
+    height: 350px;
+    background-image:url("img/onuenergialimpaeacess.jpg");
+    border: 3px solid ;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caixa{
+    width: 66%;
+    text-align: center;
+    border: 2px ;
+    font-size: 133%;
+
+}
+h2:hover{
+    background: yellow;
+    width:  120px;
+    border: 1px solid blue;
+    color: whitesmoke;
+    
+}
+.posi1{
+    margin: auto;
+    font-size: 144%;
+    position: relative ;
+    top: 35px;
+    left: 36px;
+}
+.espaco{
+    margin: auto;
+    width: max-content;
+    float: right;
+}
+#posi2{
+    text-align: center;
+    margin:2%;
+    font-size: 144%;
+    position: left;
+}
+.energia{
+    margin: auto;
+    font-size: 22px;
+    position: relative;
+}
+.video{
+    position: relative;
+    float:right;
+    top: 22px;
+}
+.logo{
+    border: 2% solid black;
+    position: relative;
+}
